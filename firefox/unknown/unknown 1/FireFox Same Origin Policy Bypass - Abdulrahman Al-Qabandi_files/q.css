@@ -1,0 +1,141 @@
+html{font:76% Verdana,Tahoma,Arial,sans-serif;background-color:#cccccc;}
+#qLogo{width:1700px;height:200px;
+
+
+}
+
+#qLogo img{width:50px;display:block;margin-left:10px;margin-top:30px;
+
+}
+
+
+#qLogo h1{font-size:40px;line-height:130px;width:500px;}
+
+#qLogo h1,#qLogo img{float:left;}
+
+#qLogo #qNav{margin-top:30px;margin-left:20px;
+
+	width:750px;height:100px;
+	float:left;
+}
+#qLogo #qNav a{
+	display:block;
+	text-decoration:none;
+	color:black;
+border-bottom:2px solid white;
+	width:100px;
+	height:50px;
+	float:left;
+	margin:10px 10px;
+	font-size:24px;
+	text-align:center;
+	line-height:50px;
+	    -webkit-transition: border-bottom 200ms ease-in;
+    -moz-transition: border-bottom 200ms ease-in;
+    transition: border-bottom 200ms ease-in;color:rgb(61,61,61);
+		 	text-shadow: 1px 1px 1px #737373; 
+}
+#qLogo #qNav a:hover{
+	border-bottom:2px solid black;
+
+}
+#qContent{
+	width:85%;
+	margin:0 auto;
+	
+	height:800px;
+	
+}
+.qArticle{
+	border:1px solid white;
+	width:400px;
+	height:300px;
+	background-color:#F2F2F2;
+	border-radius:4px;
+	float:left;
+	margin:10px 10px;
+	opacity:0.7;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+	
+  -webkit-filter: drop-shadow(11px 11px 30px rgba(0,0,0,0.9));
+  filter: drop-shadow(11px 11px 30px rgba(0,0,0,0.9));
+
+}
+
+
+
+.qArticle img{
+	width:398px;
+	height:200px;
+	border:1px solid white;
+	  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+      -webkit-transition: filter 200ms ease-in;
+    -moz-transition: filter 200ms ease-in;
+    transition: filter 200ms ease-in;
+}
+
+.qArticle:hover img{
+		  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+	
+}
+.qArticle img,p,h1{
+	display:block;
+	margin:0 auto;
+	border-radius:4px;
+	text-align:center;
+	
+	}
+.qArticle p{
+	height:50px;
+	
+}
+
+.qArticle a{
+	
+	text-decoration:none;
+	color:black;
+}
+
+
+
+
+.qArticle:hover{
+	opacity:1.0;
+
+}
+
+
+#qWriteup{
+	width:80%;
+	margin:0 auto;
+	background-color:rgba(255,255,255,0.5);
+	font-size:16px;
+	padding:25px;
+	border-radius:7px;  -webkit-filter: drop-shadow(11px 11px 30px rgba(0,0,0,0.9));
+  filter: drop-shadow(11px 11px 30px rgba(0,0,0,0.9));
+}
+
+#qWriteup .qCode{
+	background-color:rgba(255,255,255,0.6);
+	
+}
+
+#qWriteup p{text-align:left;}
+#qWriteup h1{display:block;}
+#qWriteup img{display:block;text-indent: 40px;}
+#qWelcome{color:rgb(61,61,61)}
+#qWriteup a{font-size:17px;line-height:40px;color:black;}
+#qvisited{
+	border:1px dotted white;cursor:default;
+	
+}
